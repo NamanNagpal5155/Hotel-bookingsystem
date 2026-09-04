@@ -1,3 +1,6 @@
+import './globals.css';
+import ClientLayout from './ClientLayout';
+
 export const metadata = {
   title: 'Hotel Booking System - Find Your Perfect Stay',
   description:
@@ -22,3 +25,13 @@ export const metadata = {
     type: 'website',
   },
 };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <ClientLayout>{children}</ClientLayout>
+      </body>
+    </html>
+  );
+}
