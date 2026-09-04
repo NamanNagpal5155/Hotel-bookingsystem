@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar';
 import { useAuth } from '@/context/AuthContext';
 import { useRouter } from 'next/navigation';
 import { PageLoader } from '@/components/Loader';
-import { FiPlus, FiEdit2, FiTrash2, FiHotel, FiUsers, FiCalendar } from 'react-icons/fi';
+import { FiPlus, FiEdit2, FiTrash2, FiHome, FiUsers, FiCalendar } from 'react-icons/fi';
 import { FaStar } from 'react-icons/fa';
 
 export default function AdminPage() {
@@ -186,7 +186,7 @@ export default function AdminPage() {
                 <p className="text-gray-600 text-sm">Total Hotels</p>
                 <p className="text-3xl font-bold text-gray-900">{hotels.length}</p>
               </div>
-              <FiHotel className="text-primary-600 text-4xl" />
+              <FiHome className="text-primary-600 text-4xl" />
             </div>
           </motion.div>
 

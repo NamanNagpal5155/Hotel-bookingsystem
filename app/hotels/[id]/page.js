@@ -7,14 +7,14 @@ import BookingForm from '@/components/BookingForm';
 import { PageLoader } from '@/components/Loader';
 import { motion } from 'framer-motion';
 import { useAuth } from '@/context/AuthContext';
-import { FiMapPin, FiStar, FiWifi, FiWind, FiCar, FiCoffee, FiClock } from 'react-icons/fi';
+import { FiMapPin, FiStar, FiWifi, FiWind, FiTruck, FiCoffee, FiClock } from 'react-icons/fi';
 import Link from 'next/link';
 import { FaSwimmingPool, FaDumbbell, FaSpa, FaConciergeBell, FaSnowflake, FaPaw } from 'react-icons/fa';
 
 const amenityIcons = {
   wifi: FiWifi,
   ac: FaSnowflake,
-  parking: FiCar,
+  parking: FiTruck,
   pool: FaSwimmingPool,
   gym: FaDumbbell,
   restaurant: FiCoffee,

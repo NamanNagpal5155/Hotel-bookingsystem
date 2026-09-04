@@ -4,14 +4,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
-import { FiSearch, FiMapPin, FiStar, FiWifi, FiWind, FiCar, FiCoffee, FiClock, FiUsers, FiDollarSign, FiFilter, FiX } from 'react-icons/fi';
+import { FiSearch, FiMapPin, FiStar, FiWifi, FiWind, FiTruck, FiCoffee, FiClock, FiUsers, FiDollarSign, FiFilter, FiX } from 'react-icons/fi';
 import { FaSwimmingPool, FaDumbbell, FaSpa, FaConciergeBell, FaSnowflake, FaPaw } from 'react-icons/fa';
 import { PageLoader } from '@/components/Loader';
 
 const amenityIcons = {
   wifi: FiWifi,
   ac: FaSnowflake,
-  parking: FiCar,
+  parking: FiTruck,
   pool: FaSwimmingPool,
   gym: FaDumbbell,
   restaurant: FiCoffee,
